@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, steelblue, rgba(70, 130, 180, .5));
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: .8rem;
+}
+
+input {
+    padding: .4rem .6rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    width: 205px;
+}
+
+#addData {
+    padding: .4rem .6rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 3.5rem;
+    transition: 400ms ease-in;
+    margin-bottom: 1rem;
+}
+
+
+#addData:hover {
+    background-color: steelblue;
+    color: white;
+}
+
+.style-paragraph {
+    font-size: 1.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: .4rem;
+    margin-bottom: .4rem;
+}
